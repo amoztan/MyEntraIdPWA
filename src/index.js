@@ -11,7 +11,7 @@ const msalConfig = {
     auth: {
         clientId: "9a08ca7e-3e25-4f2a-b29c-a1feb9c6aece", // Replace with Azure AD Client ID
         authority: "https://login.microsoftonline.com/bc1b92b9-5dc9-49be-995b-c97eb515a1d3", // Replace with your Tenant ID
-        redirectUri: "http://localhost:3000", // Ensure this matches your Azure registration
+        redirectUri: "https://wonderful-pond-0d120a400.4.azurestaticapps.net", // Ensure this matches your Azure registration
     },
     cache: {
         cacheLocation: "localStorage",
